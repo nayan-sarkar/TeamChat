@@ -1,0 +1,8 @@
+.auth-form{
+    max-width: 460px;
+    margin: 60px auto;
+    border: 1px solid #ddd;
+    padding: 2em;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}

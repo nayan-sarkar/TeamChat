@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
+
+/* Resets */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --heading-color: #444;
+    --text-color: #999;
+    --accent: #096A2E;
+    --highlight-color: #d13267;
+    --bg-color: #f4f4f4;
+    --card-color: #eaf3e0;
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    background: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+.dot{
+    /* border: 1px dotted red; */
+}
+
+
+.App {
+  display: flex;
+}
+
+.App > .container{
+  flex-grow: 1;
+  padding: 0 35px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.btn {
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid var(--accent);
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: var(--accent);
+  }
+
+.modal-shadow{
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+  /* forms */
+label {
+    display: block;
+    margin: 24px auto;
+  }
+  label span {
+    display: block;
+    margin-bottom: 6px;
+  }
+  input, textarea {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  input:focus, textarea:focus{
+    outline: none;
+    border: 2.8px solid var(--accent);
+  }
+
+  .css-13cymwt-control{
+    outline: none;
+    border: none;
+    /* border: 2.8px solid var(--accent); */
+  }
+  
+  textarea {
+    min-height: 160px;
+    resize: none;
+  }
+  
+  .error {
+    color: red;
+    background: rgb(236, 184, 179);
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+
+.no-mobile{
+    display: none;
+}
+
+.app{
+    display: flex;
+}
+
+@media (max-width: 790px){
+    .no-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: var(--accent);
+        order: 99;
+    }
+
+    h1{
+        color: #fff;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,107 @@
+.arrow{
+    margin-top: 10px;
+    margin-left: 92%;
+    border: 1px solid var(--accent);
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 7px;
+  }
+  
+  .sidebar {
+      width: 250px;
+      min-width: 250px;
+      min-height: 100vh;
+      box-sizing: border-box;
+      position: relative;
+      color: #fff;
+      background: var(--accent);
+      transition: all .8s ease;
+      /* Initial State */
+      transform: translateX(0);
+    }
+  
+    .slideOut{
+      transform: translateX(0);
+    }
+  
+    .slideIn{
+      transform: translateX(-90%);
+      margin-right: -200px;
+    }
+  
+    .sidebar-content {
+      position: fixed;
+      width: inherit;
+      height: 90vh;
+    }
+  
+    .sidebar > .sidebar-content > .user {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1em;
+      align-items: center;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-top: 10px;
+      padding: 40px 30px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+  
+    .sidebar > .sidebar-content > .user > .avatar{
+        width: 200px;
+        height: 200px;
+    }
+  
+    .sidebar > .sidebar-content > .links {
+      margin-top: 80px;
+      margin-left: 20px;
+    }
+  
+    .sidebar > .sidebar-content >  .links  > ul {
+      list-style-type: none;
+    }
+  
+    .sidebar > .sidebar-content >  .links  > ul > li > a { 
+      display: flex;
+      margin: 5px 0px;
+      padding: 10px 0px;
+      text-decoration: none;
+      width: 100%;
+      color: #fff;
+      box-sizing: border-box;
+    }
+  
+    .sidebar > .sidebar-content >  .links  > ul > li > a > img {
+      margin: 0 10px 0 10px;
+      filter: invert(100%);
+    }
+    
+    .sidebar > .sidebar-content >  .links  > ul > li > a.active {
+      color: #555;
+      background: var(--bg-color);
+      border-radius: 8px 0 0 8px;
+    }
+  
+    .sidebar > .sidebar-content >  .links  > ul > li > a.active > img {
+      filter: invert(50%);
+    }
+    .sidebar > .sidebar-content > .invert{
+      position: absolute;
+      bottom: 0px;
+      width: 80%;
+      margin-left: 1.2em;
+      border: 0px solid var(--accent);
+      transition: scale 100ms;
+    }
+  
+    .invert:hover{
+      color: var(--accent);
+      background-color: #fff;
+    }
+  
+    .invert:active{
+      transform: scale(0.98);
+    }

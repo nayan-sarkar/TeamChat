@@ -1,0 +1,43 @@
+.ticket-list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px,300px));
+    grid-gap: .9em;
+  }
+
+  .ticket-list a {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .ticket-list h4 {
+    font-size: 0.9em;
+    color: var(--heading-color);
+  }
+
+  .ticket-list p {
+    color: var(--text-color);
+    font-size: 0.9em;
+  }
+
+  .ticket-list .assigned-to {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+  }
+  .ticket-list ul {
+    margin: 10px 0;
+    display: flex;
+    list-style-type: none;
+  }
+  .ticket-list li {
+    margin-right: 10px;
+  }
+  .ticket-list .avatar {
+    width: 30px;
+    height: 30px;
+  }

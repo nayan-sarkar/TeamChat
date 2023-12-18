@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    padding: 2em 0;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+
+header > ul {
+  list-style-type: none;
+  display: flex;
+  gap: .5em;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  }
+
+header > ul > .logo {
+  margin-right: 10px;
+  height: 40px;
+  display: flex;
+  margin-right: auto;
+}
+
+header > ul > li > a {
+color: #333;
+text-decoration: none;
+margin-right: 20px;
+}
