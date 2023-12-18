@@ -2,7 +2,7 @@
 
 # TeamChat | Collaboration Dashboard | Realtime Messaging | React | React Router 6 | Firebase | NoSQL
 
-A collaboration tool for teams to work together on tasks
+A project collaboration tool designed for team members to track, assigns tasks and interact in realtime.
 
 <b>Demo:</b> https://www.youtube.com/watch?v=bsYgQWqtaz4
 
