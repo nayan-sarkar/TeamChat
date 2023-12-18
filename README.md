@@ -4,7 +4,7 @@
 
 A project collaboration tool designed for team members to track, assigns tasks and interact in realtime.
 
-<b>Demo:</b> https://www.youtube.com/watch?v=bsYgQWqtaz4
+<b>Demo:</b> https://www.youtube.com/watch?v=cChKLAV4ZJM
 
 ## Built With
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Google Authentication](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
@@ -13,9 +13,9 @@ A project collaboration tool designed for team members to track, assigns tasks a
 - Built with React 18 , React Router 6 and Firebase
 - Users can chat and message team members in realtime powered by firestore DB
 - Performed conditional rendering of components with state passed through ContextAPI
-- Implemented client side form validation
+- Route Guarding implemented with protected Routes using React Router 6
 - Authentication and Storage Operations handled with Custom React Hooks
-- Provided data upload functionality which uploades images firebase storage
+- Provided data upload functionality which uploads images firebase storage
 
 ## Screenshots
 ![Desktop Screenshot](./screenshots/image-2.png)
