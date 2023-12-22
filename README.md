@@ -6,6 +6,10 @@ A project collaboration tool designed for team members to track, assigns tasks a
 
 <b>Demo:</b> https://www.youtube.com/watch?v=cChKLAV4ZJM
 
+<b>Live Site</b> https://teamchat-db052.web.app
+
+<b>
+
 ## Built With
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Google Authentication](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
